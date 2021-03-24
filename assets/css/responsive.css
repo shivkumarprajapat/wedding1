@@ -1,0 +1,123 @@
+@media (max-width: 767px) {
+    body{
+        padding: 10px;
+    }
+  .navbar-light .navbar-toggler svg {
+        width: 30px;
+        fill: #fff;
+    }
+     .main-header {
+        width: 95%;
+        top: 10px;
+    }
+
+    .main-header .navbar {
+        padding: 0;
+    }
+    .main-header.sticky .navbar-light .navbar-toggler svg {
+        fill: #000;
+    }
+    
+ #HeroSlider .slide-container .slider-content {
+    width: 80%;
+     top: 30px;
+     left: 50px;
+     position: absolute;
+    }
+
+    #HeroSlider .slide-container .slider-content h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #HeroSlider .slide-container .slider-content h2 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    #HeroSlider .slide-container .slider-content h6 {
+        display: none;
+    }
+    
+     .service-section {
+        top: 0;
+        padding-top: 50px;
+    }
+    .services-list{
+        padding-bottom: 500px;
+    }
+
+    #HeroSlider .owl-item .item .slide-img {
+        height: 350px;
+        object-fit: unset;
+    }
+
+    .btn-two {
+    margin-top: 20px;
+    }
+
+    .btn-two a {
+        padding: 5px 10px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    #HeroSlider .owl-dots {
+        bottom: 30px;
+    }
+    .service-section .service-content{
+        margin-bottom: 30px;
+    }
+    .main-title{
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+
+    }
+    .main-title span{
+       font-size: 30px;
+        
+    }
+.about-section .about-img{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+    .about-content .about-info h5{
+        text-align: center;
+    font-family: 'Raleway', sans-serif;
+    }
+    .about-section .about-content .about-info{
+        text-align: justify;
+        font-size: 14px;
+        padding: 20px;
+    }
+    
+    .video-section .video-content h2{
+        font-size: 50px;
+    }
+    .services-list .service-box .sl-front{
+        margin-bottom: 30px;
+    }
+    .cta-section{
+        padding: 50px;
+    }
+    .cta-section .cta-logo img,
+    .footer-logo img{
+        width: 150px;
+    }
+    .cta-section .cta-title{
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0;
+    }
+    .btn-light{
+        padding: 5px 10px;
+    }
+}
+@media (max-width: 991px){
+.about-section .about-img img {
+    width: 270px;
+    height: 270px;
+}
+}
